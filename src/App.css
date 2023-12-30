@@ -1,0 +1,55 @@
+/* WebsiteBuilder.css */
+
+.website-builder-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.element-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-element {
+  min-height: 50px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: text;
+}
+
+.image-element {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.save-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
